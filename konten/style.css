@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: verdana;
+}
+
+body {
+	background-color: #dcd2cf;
+}
+
+.foot {
+	width: 350px;
+	height: 150px;
+	outline-style: inset;
+	outline-color: yellow;
+	outline-width: 8px;
+	margin-left: 475;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.judul {
+	color: black;
+	transform: rotate;
+	transition-timing-function: cubic-bezier (1s, 2s, 3s, 4s);
+	transition: 1s ease-out;
+}
+
+.judul p {
+	color: black;
+	background-color: white;
+	text-align: center;
+	font-size: 35px;
+	line-height: 15vh;
+	font-family: verdana;
+	font-style: bold;
+	transition: 1s;
+}
+
+.satu {
+	width: 500; 
+	height: 350;
+	bottom: -20px;
+	right: -520px;
+	left: 400;
+	outline-style: outset;
+	outline-color: whitesmoke;
+	outline-width: 10px;
+	position: relative;
+}
+
+.Nama {
+	color: black;
+	background-color: white;
+	margin: 50px;
+	text-align: center;
+	font-size: 35px;
+	line-height: 15vh;
+	font-family: verdana;
+	font-style: bold;
+	transition: 1s;
+	
+}
+
+.dua {
+	width: 500; 
+	height: 250;
+	right: -500px;
+	left: 400;
+	outline-style: outset;
+	outline-color: whitesmoke;
+	outline-width: 10px;
+	position: relative;
+}
+
+.sch {
+	color: black;
+	background-color: white;
+	margin: 50px;
+	text-align: center;
+	font-size: 30px;
+	line-height: 15vh;
+	font-family: verdana;
+	font-style: bold;
+	transition: 1s;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 10px;
+	grid-align: center;
+}
+
+.hobi {
+	display: grid;
+	border: 2px solid white;
+	outline-style: inset;
+	outline-color: grey;
+	outline-width: 7px;
+	padding: 5px;
+	grid-grap: 20px;
+}
+
+.desc1 {
+	color: white;
+	background-color: black;
+	margin: 50px;
+	text-align: left;
+	font-size: 20px;
+	font-family: Verdana;
+	font-style: bold;
+	transition: 1s;
+	
+}
+
+.desc2 {
+	color: black;
+	background-color: white;
+	margin: 50px;
+	text-align: justify;
+	font-size: 20px;
+	font-family: verdana;
+	font-style: bold;
+	transition: 1s;
+	
+}
+
+.grid2 {
+	display: grid;
+	grid-template-columns: auto;
+	padding: 10px;
+	grid-align: center;
+}
+
+.hobi2 {
+	display: grid;
+	border: 2px solid white;
+	outline-style: inset;
+	outline-color: grey;
+	outline-width: 7px;
+	padding: 5px;
+	grid-grap: 20px;
+	
+}
+
+.desc3 {
+	color: white;
+	background-color: black;
+	margin: 50px;
+	text-align: left;
+	position: absolute;
+	top: 2400px;
+	font-size: 20px;
+	font-family: Verdana;
+	font-style: bold;
+	transition: 1s;
+}
+
+.desc4 {
+	color: black;
+	background-color: white;
+	margin: 50px;
+	text-align: left;
+	position: absolute;
+	top: 2925px;
+	font-size: 20px;
+	font-family: Verdana;
+	font-style: bold;
+	transition: 1s;
+}
+
+.ig {
+	width: 500;
+	height: 500;
+	margin-top: 20;
+	margin-left: 200;
+	outline-style: outset;
+	outline-color: yellow;
+	outline-width: 8px;
+	position: relative;
+}
+
+.desc5 {
+	color: #5c6ddb;
+	background-color: black;
+	margin: 50px;
+	text-align: left;
+	position: absolute;
+	top: 3020px;
+	margin-left: 215;
+	font-size: 20px;
+	font-family: Verdana;
+	font-style: bold;
+	transition: 1s;
+}
+
+.desc5 a {
+	color: #5c6ddb;
+	text-decoration: none;
+}
+
+.desc5 a:hover {
+	color: #00a3d9;
+	transition-delay: 1ms;
+}
+
+.yt {
+	width: 500;
+	height: 500;
+	margin-top: 20;
+	margin-left: 600;
+	outline-style: outset;
+	outline-color: yellow;
+	outline-width: 8px;
+	position: relative;
+}
+
+.desc6 {
+	color: #f0f0e1;
+	background-color: black;
+	margin: 50px;
+	text-align: left;
+	position: absolute;
+	top: 3575px;
+	margin-left: 265;
+	font-size: 20px;
+	font-family: Verdana;
+	font-style: bold;
+	transition: 1s;
+}
+
+.desc6 a {
+	color: #f0f0e1;
+	text-decoration: none;
+}
+
+.desc6 a:hover {
+	color: #464637;
+	transition-delay: 1ms;
+}
+
+.Sp {
+	width: 1000;
+	height: 250;
+	margin-top: 20;
+	margin-left: 100;
+	outline-style: outset;
+	outline-color: yellow;
+	outline-width: 8px;
+	position: relative;
+}
+
+.desc7 {
+	color: #f0f0e1;
+	background-color: black;
+	margin: 50px;
+	text-align: left;
+	position: absolute;
+	top: 4315px;
+	margin-left: 95;
+	font-size: 20px;
+	font-family: Verdana;
+	font-style: bold;
+	transition: 1s;
+}
+
+.desc7 a {
+	color: #f0f0e1;
+	text-decoration: none;
+}
+
+.desc7 a:hover {
+	color: #464637;
+	transition-delay: 1ms;
+}
